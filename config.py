@@ -6,14 +6,14 @@ import os
 # ⚠️ توکن ربات از BotFather روبیکا. برای امنیت، ترجیحاً از متغیر محیطی بخونیدش
 # (مثلاً: RUBIKA_BOT_TOKEN=xxxxx python bot.py) تا مجبور نباشید توکن رو مستقیم
 # داخل کد بنویسید و دستی هم به گیت‌هاب پابلیک پوش نشه.
-BOT_TOKEN = os.environ.get("RUBIKA_BOT_TOKEN", "PASTE_YOUR_TOKEN_HERE")
+BOT_TOKEN = os.environ.get("RUBIKA_BOT_TOKEN", "CFFEBE0IHUSMMEXJRKJYTOGMKMEGGBYLZWPRLBDYIUPRNCWYJXFGDUGACBYFSMPM")
 
 DB_PATH = "support_bot.db"
 
 # آیدی(های) اولیه‌ای که به عنوان OWNER (بالاترین دسترسی) ثبت می‌شن.
 # همون sender_id ای که وقتی به بات پیام می‌دید در دیتابیس/لاگ می‌بینید.
 INITIAL_OWNER_IDS = [
-    "PASTE_YOUR_OWNER_SENDER_ID_HERE",
+    "",
 ]
 
 STALE_THRESHOLD_MINUTES = 30
